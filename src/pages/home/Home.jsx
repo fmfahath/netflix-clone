@@ -11,7 +11,10 @@ import TitleCard from '../../components/TitleCard/TitleCard'
 const Home = () => {
     return (
         <div className='home'>
+            {/* navbr--------------- */}
             <Navbar />
+
+            {/* hero section-------- */}
             <div className="hero">
                 <img src={hero_banner} alt="" className='banner-img' />
                 <div className="hero-caption">
@@ -26,6 +29,15 @@ const Home = () => {
                     <TitleCard />
                 </div>
             </div>
+
+            {/* more cards--------- */}
+            <div className="more-cards">
+                <TitleCard title={"Blockbuster Movies"} />
+                <TitleCard title={"Only on Netflix"} />
+                <TitleCard title={"Upcoming"} />
+                <TitleCard title={"Top Picks for You"} />
+            </div>
+
         </div>
     )
 }
