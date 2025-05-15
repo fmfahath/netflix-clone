@@ -6,7 +6,7 @@
     position: fixed;
     font-size: 14px;
     color: #e5e5e5;
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 10%, transparent 100%);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 25%, transparent 100%);
     z-index: 1;
 }
 
@@ -74,4 +74,8 @@
 
 .navbar-profile:hover .dropdown {
     display: block;
+}
+
+.nav-dark {
+    background-color: #141414;
 }
