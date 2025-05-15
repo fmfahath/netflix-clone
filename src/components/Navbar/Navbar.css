@@ -56,7 +56,7 @@
 
 .navbar .dropdown {
     position: absolute;
-    top: 120%;
+    top: 100%;
     right: 0;
     width: max-content;
     background-color: #191919;
