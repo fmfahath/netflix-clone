@@ -6,6 +6,7 @@ import bell_icon from '../../assets/bell_icon.svg'
 import profile_img from '../../assets/profile_img.png'
 import caret_icon from '../../assets/caret_icon.svg'
 import { logout } from '../../firebase'
+import { Link } from 'react-router-dom'
 
 
 const Navbar = () => {
@@ -26,7 +27,7 @@ const Navbar = () => {
     return (
         <div ref={navRef} className='navbar'>
             <div className="navbar-left">
-                <img src={logo} alt="" />
+                <Link to={"/"}><img src={logo} alt="" /></Link>
                 <ul>
                     <li>Home</li>
                     <li>TV Shows</li>

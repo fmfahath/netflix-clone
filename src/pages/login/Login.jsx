@@ -3,12 +3,13 @@ import './Login.css'
 import logo from '../../assets/logo.png'
 import { login, signup } from '../../firebase'
 import netflix_spinner from '../../assets/netflix_spinner.gif'
+import { Link } from 'react-router-dom'
 
 const Login = () => {
 
     const [signState, setSignState] = useState('Sign In')
-    const [email, setEmail] = useState('')
-    const [password, setPassword] = useState('')
+    const [email, setEmail] = useState('test@gmail.com')
+    const [password, setPassword] = useState('test@123')
     const [name, setName] = useState('')
     const [loading, setLoading] = useState(false)
 
@@ -32,7 +33,7 @@ const Login = () => {
             <img src={netflix_spinner} alt="" />
         </div> :
             <div className='login'>
-                <img src={logo} alt="" className='login-logo' />
+                <Link to={'/'}><img src={logo} alt="" className='login-logo' /></Link>
                 <div className="login-form">
                     <h1>{signState}</h1>
                     <form >
