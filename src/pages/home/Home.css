@@ -71,6 +71,7 @@
 @media (max-width:500px) {
     .hero {
         padding-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     .hero-caption {
@@ -106,5 +107,9 @@
         padding: 6px 15px;
         gap: 5px;
         font-size: 12px;
+    }
+
+    .hero-title-card {
+        display: none;
     }
 }
