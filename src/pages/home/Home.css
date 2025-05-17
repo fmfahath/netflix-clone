@@ -94,7 +94,11 @@
         position: absolute;
         width: 100%;
         padding-left: 6%;
-        top: 25%;
+        top: 50%;
+    }
+
+    .hero-caption p {
+        display: none;
     }
 
     .caption-img {
@@ -130,12 +134,12 @@
     }
 
     .more-card-title {
-        max-width: 80%;
+        max-width: 90%;
         margin: 0 auto;
     }
 
     .more-card-title h1 {
-        font-size: 25px;
+        font-size: 23px;
         font-weight: 500;
         line-height: 1;
     }
