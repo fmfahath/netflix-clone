@@ -19,8 +19,15 @@
 
 .title-cards .card-list img {
     width: 240px;
+    /* border-bottom: 1px solid #5e0202d4; */
     border-radius: 4px;
     cursor: pointer;
+    box-shadow: 0px 0px 1px 0px #e50914;
+    transition: box-shadow 0.3s ease;
+}
+
+.title-cards .card-list img:hover {
+    box-shadow: 1px 1px 10px 0px #e50914a4;
 }
 
 .title-cards .card {
