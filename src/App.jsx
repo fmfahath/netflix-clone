@@ -18,8 +18,8 @@ const App = () => {
         navigate('/')
       }
       else {
-        console.log("logged Out");
-        // navigate('/login')
+        // console.log("logged Out");
+        navigate('/login')
       }
     })
   }, [navigate])
