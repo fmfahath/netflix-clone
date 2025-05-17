@@ -27,3 +27,20 @@
     color: gray;
     font-size: 14px;
 }
+
+@media(max-width: 500px) {
+    .footer-icons {
+        gap: 10px;
+    }
+
+    .footer-icons img {
+        width: 20px;
+    }
+
+    .footer ul {
+        grid-template-columns: auto auto;
+        gap: 10px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+}
