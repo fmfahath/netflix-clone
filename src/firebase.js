@@ -53,6 +53,8 @@ const login = async (email, password) => {
 
 // logout function------------------------------------------------
 const logout = () => {
+    console.log("logout running");
+
     signOut(auth);
 }
 
